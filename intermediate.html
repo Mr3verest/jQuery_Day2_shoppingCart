@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+</head>
+<body>
+
+	<button class="add" value="0">Add Item1 55€</button> 
+	<button class="add" value="1">Add Item2 20€</button> 
+	<button class="add" value="2">Add Item3 67€</button> 
+	<br>
+	<button class="remove" value="0">Remove Item1 55€</button> 
+	<button class="remove" value="1">Remove Item2 20€</button> 
+	<button class="remove" value="2">Remove Item3 67€</button> 
+	<br>
+
+	<button id="cartView">View Cart</button> 
+	<div id="cart">
+		
+		<div class="items" id="itemCon0" >
+			<span id="item0"></span>
+			<button class="add" value="0">+</button>
+			<button class="remove" value="0">-</button>
+			<button class="removeAll" value="0">x</button>
+		</div>
+		<div class="items" id="itemCon1" >
+			<span id="item1"></span>
+			<button class="add" value="1">+</button>
+			<button class="remove" value="1">-</button>
+			<button class="removeAll" value="1">x</button>
+		</div>
+		<div class="items" id="itemCon2" >
+			<span id="item2"></span>
+			<button class="add" value="2">+</button>
+			<button class="remove" value="2">-</button>
+			<button class="removeAll" value="2">x</button>
+		</div>
+
+		<div class="display" id="subTotal"></div>
+		<div class="display" id="shipping"></div>
+		<div class="display" id="tax"></div>
+		<div class="display" id="discount"></div>
+		<div class="display" id="total"></div>
+	</div>
+
+
+
+
+
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
